@@ -1,0 +1,15 @@
+pmos characteristics
+VDD 3 0 -8
+VGS 1 0 -2.4
+VD 3 2 0
+M1 2 1 0 0 PMOD W = 20u L = 2u
+.MODEL PMOD PMOS VTO = 0.5 LAMBDA = 0.08
+.dc VDD 0 -8 -2 VGS 0 -2.4 -0.1
+.control
+run
+set color0 = white
+set color1 = blue
+set color2 = red
+plot i(VD)
+.endc
+.end

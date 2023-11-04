@@ -1,0 +1,24 @@
+transient analysis
+VDD 1 0 5
+VD 1 4 0
+Vin 2 0 5
+Mn 3 2 0 0 NMOD W=5u L=1u
+Mp 3 2 4 1 PMOD W=10u L=1u
+
+.MODEL NMOD NMOS VTO=1 Kp=100u LAMBDA=0.01 GAMMA=0.005
+.MODEL PMOD PMOS VTO=-1 Kp=50u LAMBDA=0.01 GAMMA=0.005
+.dc Vin 0 5 0.05
+.control
+run
+
+set color0=white
+set color1=blue
+set color2=red
+
+plot V(3)
+plot DERIV(V(3))
+print DERIV(V(3))
+plot I(Vd)*(V(1))
+
+.endc
+.end
