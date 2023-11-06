@@ -1,0 +1,3 @@
+verilog isim_temp "exp7source.v"
+verilog isim_temp "exp7test.v"
+verilog isim_temp "E:/DVLSI/Xilinx/verilog/src/glbl.v"

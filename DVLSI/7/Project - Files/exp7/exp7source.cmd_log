@@ -1,0 +1,3 @@
+xst -ise "E:/Programming/Colg - Sem V/Colg-Sem-V/DVLSI/7/Project - Files/exp7/exp7" -intstyle ise -ifn exp7source.xst -ofn exp7source.syr
+xst -ise "E:/Programming/Colg - Sem V/Colg-Sem-V/DVLSI/7/Project - Files/exp7/exp7" -intstyle ise -ifn exp7source.xst -ofn exp7source.syr
+ngdbuild -ise "E:/Programming/Colg - Sem V/Colg-Sem-V/DVLSI/7/Project - Files/exp7/exp7" -intstyle ise -dd _ngo -i -p acr2 exp7source.ngc exp7source.ngd

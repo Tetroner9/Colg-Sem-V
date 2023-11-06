@@ -1,0 +1,10 @@
+V3 7
+FL "E:/Programming/Colg - Sem V/Colg-Sem-V/DVLSI/7/Project - Files/exp7/exp7test.v" 2023/11/06.17:10:20 I.24
+MO isim_temp/exp7test_v \
+      FL "E:/Programming/Colg - Sem V/Colg-Sem-V/DVLSI/7/Project - Files/exp7/exp7test.v" \
+      MI exp7source
+FL "E:/Programming/Colg - Sem V/Colg-Sem-V/DVLSI/7/Project - Files/exp7/exp7source.v" 2023/11/06.17:10:59 I.24
+MO isim_temp/exp7source \
+      FL "E:/Programming/Colg - Sem V/Colg-Sem-V/DVLSI/7/Project - Files/exp7/exp7source.v"
+FL $XILINX/verilog/src/glbl.v 2005/11/16.16:04:44 I.24
+MO isim_temp/glbl       FL $XILINX/verilog/src/glbl.v

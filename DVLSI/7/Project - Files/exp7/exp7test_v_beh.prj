@@ -1,0 +1,3 @@
+verilog work "exp7source.v"
+verilog work "exp7test.v"
+verilog work "E:/DVLSI/Xilinx/verilog/src/glbl.v"
