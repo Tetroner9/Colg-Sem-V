@@ -1,0 +1,4 @@
+xst -ise "E:/Programming/Colg - Sem V/Colg-Sem-V/DVLSI/8/Project - Files/exp8/exp8" -intstyle ise -ifn mux8to1.xst -ofn mux8to1.syr
+xst -ise "E:/Programming/Colg - Sem V/Colg-Sem-V/DVLSI/8/Project - Files/exp8/exp8" -intstyle ise -ifn mux8to1.xst -ofn mux8to1.syr
+ngdbuild -ise "E:/Programming/Colg - Sem V/Colg-Sem-V/DVLSI/8/Project - Files/exp8/exp8" -intstyle ise -dd _ngo -i -p acr2 mux8to1.ngc mux8to1.ngd
+cpldfit -ise "E:/Programming/Colg - Sem V/Colg-Sem-V/DVLSI/8/Project - Files/exp8/exp8" -intstyle ise -p xa2c*-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -inreg on -blkfanin 38 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 mux8to1.ngd

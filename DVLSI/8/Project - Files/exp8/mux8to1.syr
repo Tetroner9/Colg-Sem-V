@@ -1,0 +1,186 @@
+Release 8.1i - xst I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.12 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.12 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: mux8to1.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+     5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mux8to1.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mux8to1"
+Output Format                      : NGC
+Target Device                      : Automotive CoolRunner2
+
+---- Source Options
+Top Module Name                    : mux8to1
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : YES
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+
+---- Other Options
+lso                                : mux8to1.lso
+verilog2001                        : YES
+safe_implementation                : No
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "mux4to1.v" in library work
+Compiling verilog file "mux2to1.v" in library work
+Module <mux4to1> compiled
+Compiling verilog file "mux8to1.v" in library work
+Module <mux2to1> compiled
+Module <mux8to1> compiled
+No errors in compilation
+Analysis of file <"mux8to1.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+WARNING:HDLCompilers:261 - "mux8to1.v" line 29 Connection to output port 'out1' does not match port size
+Analyzing top module <mux8to1>.
+Module <mux8to1> is correct for synthesis.
+ 
+Analyzing module <mux4to1>.
+WARNING:Xst:905 - "mux4to1.v" line 28: The signals <In0, In1, In2, In3> are missing in the sensitivity list of always block.
+Module <mux4to1> is correct for synthesis.
+ 
+Analyzing module <mux2to1>.
+Module <mux2to1> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <mux2to1>.
+    Related source file is "mux2to1.v".
+Unit <mux2to1> synthesized.
+
+
+Synthesizing Unit <mux4to1>.
+    Related source file is "mux4to1.v".
+    Found 3-bit 4-to-1 multiplexer for signal <out1>.
+Unit <mux4to1> synthesized.
+
+
+Synthesizing Unit <mux8to1>.
+    Related source file is "mux8to1.v".
+WARNING:Xst:1306 - Output <out> is never assigned.
+WARNING:Xst:646 - Signal <out1> is assigned but never used.
+Unit <mux8to1> synthesized.
+
+WARNING:Xst:524 - All outputs of the instance <g3> of the block <mux2to1> are unconnected in block <mux8to1>.
+   This instance will be removed from the design along with all underlying logic
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 2
+ 3-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <g1> is unconnected in block <mux8to1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <g2> is unconnected in block <mux8to1>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Multiplexers                                         : 2
+ 3-bit 4-to-1 multiplexer                              : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1355 - Unit mux2to1 is merged (low complexity)
+
+Optimizing unit <mux8to1> ...
+
+Optimizing unit <mux4to1> ...
+WARNING:Xst:1290 - Hierarchical block <g2> is unconnected in block <mux8to1>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <g1> is unconnected in block <mux8to1>.
+   It will be removed from the design.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : mux8to1.ngr
+Top Level Output File Name         : mux8to1
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : Automotive CoolRunner2
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 30
+
+Cell Usage :
+=========================================================================
+CPU : 1.65 / 1.77 s | Elapsed : 2.00 / 2.00 s
+ 
+--> 
+
+Total memory usage is 153324 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,1 @@
+xst -ise "E:/Programming/Colg - Sem V/Colg-Sem-V/DVLSI/8/Project - Files/exp8/exp8" -intstyle ise -ifn mux4to1.xst -ofn mux4to1.syr

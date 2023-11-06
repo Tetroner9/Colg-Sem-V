@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="261" delta="unknown" ><arg fmt="%s" index="1">&quot;mux8to1.v&quot; line 29 </arg>Connection to output port &apos;<arg fmt="%s" index="2">out1</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="Xst" num="905" delta="unknown" >&quot;<arg fmt="%s" index="1">mux4to1.v</arg>&quot; line <arg fmt="%d" index="2">28</arg>: The signals &lt;<arg fmt="%s" index="3">In0, In1, In2, In3</arg>&gt; are missing in the sensitivity list of always block.
+</msg>
+
+<msg type="warning" file="Xst" num="1306" delta="unknown" >Output &lt;<arg fmt="%s" index="1">out</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="unknown" >Signal &lt;<arg fmt="%s" index="1">out1</arg>&gt; is assigned but never used.
+</msg>
+
+<msg type="warning" file="Xst" num="524" delta="unknown" >All outputs of the instance &lt;<arg fmt="%s" index="1">g3</arg>&gt; of the block &lt;<arg fmt="%s" index="2">mux2to1</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="3">mux8to1</arg>&gt;.
+This instance will be removed from the design along with all underlying logic
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">g1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mux8to1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">g2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mux8to1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1355" delta="unknown" >Unit <arg fmt="%s" index="1">mux2to1</arg> is merged (low complexity)
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">g2</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mux8to1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="unknown" >Hierarchical block &lt;<arg fmt="%s" index="1">g1</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">mux8to1</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+</messages>

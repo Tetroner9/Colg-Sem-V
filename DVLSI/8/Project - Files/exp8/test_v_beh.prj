@@ -1,0 +1,5 @@
+verilog work "mux4to1.v"
+verilog work "mux2to1.v"
+verilog work "mux8to1.v"
+verilog work "test.v"
+verilog work "E:/DVLSI/Xilinx/verilog/src/glbl.v"

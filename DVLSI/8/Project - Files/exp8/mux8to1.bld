@@ -1,0 +1,23 @@
+Release 8.1i ngdbuild I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd _ngo -i -p acr2 mux8to1.ngc mux8to1.ngd
+
+Reading NGO file 'E:/Programming/Colg - Sem V/Colg-Sem-V/DVLSI/8/Project -
+Files/exp8/mux8to1.ngc' ...
+Loading design module "E:\Programming\Colg - Sem V\Colg-Sem-V\DVLSI\8\Project -
+Files\exp8/mux8to1.ngc"...
+WARNING:NgdBuild:578 - Design contains no instances.
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   1
+
+Total memory usage is 111524 kilobytes
+
+Writing NGD file "mux8to1.ngd" ...
+
+Writing NGDBUILD log file "mux8to1.bld"...

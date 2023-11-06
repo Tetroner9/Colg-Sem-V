@@ -1,0 +1,11 @@
+ 
+cpldfit:  version I.24                              Xilinx Inc.
+                                  No Fit Report
+Design Name: mux8to1                             Date: 11- 7-2023,  0:25AM
+Device Used: 
+Fitting Status: Design Rule Checking Failed
+
+**************************  Errors and Warnings  ***************************
+
+ERROR:Cpld:1005 - Design 'mux8to1' has no outputs. 
+

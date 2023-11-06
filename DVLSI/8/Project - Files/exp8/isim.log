@@ -1,0 +1,27 @@
+ command line:
+   ./test_v_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  31533
+
+Tue Nov 07 00:25:31 2023
+
+WARNING:Simulator:13 - For instance /test_v/uut/g3/, width 3 of formal port out1
+   is not equal to width 1 of actual signal out1.
+Total Line Count = 95
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 76.6034 Meg. 
+
+ Total signals 38
+ Total nets 47
+ Total signal drivers 15
+ Total blocks 6
+ Total primitive blocks 4
+ Total processes 18
+ntrace select -o on -m / -l this 
+ntrace start 
+run 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
