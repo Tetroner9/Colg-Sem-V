@@ -25,10 +25,11 @@ Experiment 7B - [Hamming](/DTSP/Experiments/Exp%20-%2007/7B.ipynb)</br>
 Experiment 7C - [Hanning](/DTSP/Experiments/Exp%20-%2007/7C.ipynb)</br>
 Experiment 7D - [Rectangular](/DTSP/Experiments/Exp%20-%2007/7D.ipynb)</br>
 
-Experiment 8A - [Digital FIR Low Pass Filter](/DTSP/Experiments/Exp%20-%2008/8A.ipynb)</br>
-Experiment 8B - [Digital FIR High Pass Filter](/DTSP/Experiments/Exp%20-%2008/8B.ipynb)</br>
-Experiment 8C - [Digital FIR Band Pass Filter](/DTSP/Experiments/Exp%20-%2008/8C.ipynb)</br>
-Experiment 8D - [Digital FIR Band Reject Filter](/DTSP/Experiments/Exp%20-%2008/8D.ipynb)</br>
+Experiment 8 - Design a digital FIR using Rectangular Window </br>
+Experiment 8A - [Low Pass Filter](/DTSP/Experiments/Exp%20-%2008/8A.ipynb)</br>
+Experiment 8B - [High Pass Filter](/DTSP/Experiments/Exp%20-%2008/8B.ipynb)</br>
+Experiment 8C - [Band Pass Filter](/DTSP/Experiments/Exp%20-%2008/8C.ipynb)</br>
+Experiment 8D - [Band Reject Filter](/DTSP/Experiments/Exp%20-%2008/8D.ipynb)</br>
 
 Experiment 9 - [IIR Butterworth Filter using BLT](/DTSP/Experiments/Exp%20-%2009/9.ipynb)
 
