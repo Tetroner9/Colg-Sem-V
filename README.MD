@@ -8,7 +8,7 @@
 
 Experiment 2 - [Implementation & Verification of Linear Convolution](/DTSP/Experiments/Exp%20-%2002/2.ipynb)
 
-Experiment 3A & 3B  - [Implement_Circular_Convolution](/DTSP/Experiments/Exp%20-%2003/)
+Experiment 3A & 3B  - [Implement Circular Convolution](/DTSP/Experiments/Exp%20-%2003/)
 
 Experiment 4 - [Discrete Fourier Transform](/DTSP/Experiments/Exp%20-%2004/4.ipynb)
 
