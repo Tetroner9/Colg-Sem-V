@@ -6,7 +6,7 @@
 
 ## DTSP
 
-Experiment 2 - [Implementation_&_Verification_of_Linear_Convolution](/DTSP/Experiments/Exp-2-Implementation_&_Verification_of_Linear_Convolution.ipynb)
+Experiment 2 - [Implementation & Verification of Linear Convolution](/DTSP/Experiments/Exp%20-%2002/2.ipynb)
 
 Experiment 3A & 3B  - [Implement_Circular_Convolution](/DTSP/Experiments/Exp%20-%2003/)
 
