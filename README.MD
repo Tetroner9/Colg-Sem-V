@@ -8,6 +8,8 @@
 
 - [Xilinx ISE](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive-ise.html)</br>
 
+- [Microwind](https://www.microwind.net/downloads)</br>
+
 Make sure to install the following packges:</br>
 ```
 pip install jupyterlab notebook matplotlib numpy opencv-python opencv-python-headless
